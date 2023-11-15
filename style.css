@@ -120,3 +120,117 @@
     transform: translateX(0);
   }
 }
+@media only screen and (max-width: 600px) {
+  html {
+    background-color: lightblue;
+    height:100%;
+    width: 100%;
+  }
+  .hint{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .front
+{
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  top:30px;
+  left:600px;
+  background-color:rgb(238, 234, 234);
+  /* border: 1px solid red ; */
+  border-radius:20px;
+}
+  .back
+  {
+    height:300px;
+    position: absolute;
+    top:300px;
+   right:990px;
+  }
+  
+.image
+{
+  height: 280px;
+  width: 280px;
+  border-radius: 30px;
+  position: absolute;
+  top:40px;
+  left:30px;
+}
+
+.rasiya-text
+{
+  font-size:28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  background-color:rgb(238, 234, 234);
+  color:black;
+  opacity: 50%;
+  position: absolute;
+  top:65%;
+  left:30px
+}
+.singer
+{
+  font-size:15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  background-color:rgb(238, 234, 234);
+  color:black;
+  opacity: 50%;
+  position: absolute;
+  top:72%;
+  left:30px
+}
+.play
+{
+  height:80px;
+  width:80px;
+  position: absolute;
+  top:240px;
+  left:330px;
+  background-color:rgb(238, 234, 234);
+}
+.heart
+{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top:30px;
+  left:340px;
+  background-color:rgb(238, 234, 234);
+}
+.prev
+{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top:100px;
+  left:345px;
+  background-color:rgb(78, 42, 42);
+}
+.hint
+{
+  font-size: large;
+  position: relative;
+  top:100px;
+  left: 50px;
+}
+.next
+{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top:170px;
+  left:345px;
+  background-color:rgb(238, 234, 234);
+
+}
+
+.controls
+{
+  background-color: white;
+  position: absolute;
+  top:400px;
+  left:40px;
+}
+}
